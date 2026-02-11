@@ -6,8 +6,6 @@ client = genai.Client(
     api_key=st.secrets["GEMINI_API_KEY"]
 )
 
-)
-
 def get_gemini_response(input_text, image, prompt):
 
     response = client.models.generate_content(
