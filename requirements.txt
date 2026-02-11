@@ -1,5 +1,7 @@
-sstreamlit
-google-generativeai
+streamlit
+google-genai
 python-dotenv
+pillow
+
 
 
